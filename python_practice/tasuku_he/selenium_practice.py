@@ -1,8 +1,5 @@
 from selenium import webdriver
-from bs4 import BeautifulSoup
-import requests
 import pandas as pd
-from selenium.webdriver.common.by import By
 
 filename = 'results.csv'
 titles = []
@@ -16,8 +13,6 @@ search_button = ebay.find_element_by_xpath('//input[@id="gh-btn"]')
 search_button.click()
 url = ebay.current_url
 
-contents = requests.get(url)
-soup = BeautifulSoup(contents.content,'html.parser')
 
 titles_elements = ebay.find_elements_by_class_name("s-item__title")
 prices_elements = ebay.find_elements_by_class_name("s-item__price")
