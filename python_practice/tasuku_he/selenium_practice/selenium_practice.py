@@ -23,7 +23,6 @@ for element in titles_elements:
 for element in prices_elements:
     prices.append(element.text)
 
-
 #print(titles)
 #print(prices)
 results = pd.DataFrame({
