@@ -1,4 +1,4 @@
-# Color Picker
+# Bubble Sort
 
 program that visuzualizes the bubble sort algorithm
 
