@@ -1,4 +1,4 @@
-# Space Invaders
+# Backtracking
 
 a visual representation of the backtracking algorithm
 
